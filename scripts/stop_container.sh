@@ -1,3 +1,3 @@
 #!/bin/bash
-docker stop final-python-nginx
-docker rm final-python-nginx
+docker stop final-python-con
+docker rm final-python-con
