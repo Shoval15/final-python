@@ -1,3 +1,3 @@
 #!/bin/bash
-docker stop lidor-nginx
-docker rm lidor-nginx
+docker stop final-python-nginx
+docker rm final-python-nginx
