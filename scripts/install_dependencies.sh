@@ -5,3 +5,5 @@ sudo yum update
 sudo yum install docker
 # execute docker commands without using sudo
 sudo usermod -a -G docker ec2-user
+id ec2-user
+newgrp docker
