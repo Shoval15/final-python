@@ -5,7 +5,7 @@ hooks:
     - location: scripts/install_dependencies.sh
       timeout: 100
       runas: ec2-user
-  ApplicationStart:
+  AfterInstall:
     - location: scripts/start_container.sh
       timeout: 100
       runas: ec2-user
