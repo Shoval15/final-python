@@ -1,2 +1,3 @@
 #!/bin/bash
-docker run --name final-python-nginx -d -p 80:5000 nginx
+docker pull final-python:latest
+docker run -d -p 80:5000 --name final-python-con final-python:latest
