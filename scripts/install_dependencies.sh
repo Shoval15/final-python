@@ -1,3 +1,7 @@
 #!/bin/bash
-curl -fsSL https://get.docker.com -o get-docker.sh
-sh get-docker.sh
+# update the instance
+sudo yum update
+# install docker
+sudo yum install docker
+# execute docker commands without using sudo
+sudo usermod -a -G docker ec2-user
